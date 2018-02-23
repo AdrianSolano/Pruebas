@@ -1,20 +1,50 @@
 package com.adaits;
 
+import java.util.ArrayList;
+
 public class Minion {
 
     private String nombre;
     private int crimenes;
+    private String gafas;
+    private int ojos;
+    private ArrayList habilidades = new ArrayList(10);
+    private String jefe;
 
-    //Crear propiedad para gestionar palabra favorita
-    //Crear propiedad para los numeros de ojos
-    //Crear propiedad de si lleva gafas o no
-    //Crear propiedad de habilidades
+
+    //Crear propiedad para gestionar palabra favorita//
+    //Crear propiedad para los numeros de ojos""
+    //Crear propiedad de si lleva gafas o no///
+    //Crear propiedad de habilidades//Array
     //Crear Clase Jefe y asociarla a un minion, tener en cuenta que un jefe puede tener varios minions
     //Pero los minions solo obedecen a un jefe
 
     public Minion(String nombre, int crimenes) {
         this.nombre = nombre;
         this.crimenes = crimenes;
+    }
+    public Minion(){
+
+    }
+    public String fraseFavorita (String fav){
+        String frase="";
+        frase += "Hola";
+        return frase;
+    }
+    public int numeroOjos(){
+        int ojos=2;
+        return ojos;
+    }
+    public boolean llevagafas(){
+        String gafas="(GAFAS)";
+        String gafas2="Sin gafas";
+        if (nombre == gafas )
+            return true;
+            System.out.println("Lleva gafas");
+        if (nombre != gafas2)
+            return false;
+            System.out.println("No lleva gafas");
+        return false;
     }
 
     @Override
@@ -43,6 +73,23 @@ public class Minion {
         return esMayor;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Minion minion = (Minion) o;
+
+        if (crimenes != minion.crimenes) return false;
+        return nombre != null ? nombre.equals(minion.nombre) : minion.nombre == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = nombre != null ? nombre.hashCode() : 0;
+        result = 31 * result + crimenes;
+        return result;
+    }
     //Crear una funcion que obtengan todos los minions con mas de un ojo y sin gafas
 
 

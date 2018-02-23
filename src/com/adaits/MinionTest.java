@@ -45,7 +45,7 @@ class MinionTest {
 
 
     @Test
-    void probarEsUnVillano(){
+    void probarEsUnVillano1(){
         assertTrue(minionProbar.esUnVillano());
     }
 
@@ -78,11 +78,11 @@ class MinionTest {
     }
     @Test
     void probarEsUnVillano8(){
-        assertFalse(minionProbar.esUnVillano());
+        assertTrue(minionProbar.esUnVillano());
     }
     @Test
     void probarEsUnVillano9(){
-        assertTrue(minionProbar.esUnVillano());
+        assertFalse(minionProbar.esUnVillano());
     }
 
 
