@@ -16,7 +16,7 @@ public class Minion {
     //Crear propiedad para los numeros de ojos""
     //Crear propiedad de si lleva gafas o no///
     //Crear propiedad de habilidades//Array
-    //Crear Clase Jefe y asociarla a un minion, tener en cuenta que un jefe puede tener varios minions
+    //Crear Clase com.adaits.Jefe y asociarla a un minion, tener en cuenta que un jefe puede tener varios minions
     //Pero los minions solo obedecen a un jefe
 
     public Minion(String nombre, int crimenes) {
