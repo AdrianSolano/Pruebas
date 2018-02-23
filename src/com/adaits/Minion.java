@@ -7,7 +7,7 @@ public class Minion {
     private String nombre;
     private int crimenes;
     private String gafas;
-    private int ojos;
+    private int ojos=2;
     private ArrayList habilidades = new ArrayList(10);
     private String jefe;
 
@@ -25,26 +25,6 @@ public class Minion {
     }
     public Minion(){
 
-    }
-    public String fraseFavorita (String fav){
-        String frase="";
-        frase += "Hola";
-        return frase;
-    }
-    public int numeroOjos(){
-        int ojos=2;
-        return ojos;
-    }
-    public boolean llevagafas(){
-        String gafas="(GAFAS)";
-        String gafas2="Sin gafas";
-        if (nombre == gafas )
-            return true;
-            System.out.println("Lleva gafas");
-        if (nombre != gafas2)
-            return false;
-            System.out.println("No lleva gafas");
-        return false;
     }
 
     @Override
@@ -91,7 +71,6 @@ public class Minion {
         return result;
     }
     //Crear una funcion que obtengan todos los minions con mas de un ojo y sin gafas
-
 
     //Crear una función que obtenga todos los minions con más de una habilidad
 
