@@ -37,7 +37,6 @@ public class MinionTest3 {
         for (int i = 0; i<minionsPrueba.size();i++)
             minionsPrueba.indexOf(i);
         assertEquals(minion,minionsPrueba);
-        assertSame(minion,minionsPrueba);
 
     }
     @Test
