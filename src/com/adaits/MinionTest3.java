@@ -37,6 +37,7 @@ public class MinionTest3 {
         for (int i = 0; i<minionsPrueba.size();i++)
             minionsPrueba.indexOf(i);
         assertEquals(minion,minionsPrueba);
+        //IMPLEMENTAR TODAS LA FUNCIONES Y ALMENOS DOS PRUEBAS
 
     }
     @Test
