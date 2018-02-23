@@ -73,6 +73,15 @@ public class Minion {
         return result;
     }
     //Crear una funcion que obtengan todos los minions con mas de un ojo y sin gafas
+    public Minion dosOjosSinGafas(){
+        Minion o = new Minion(true,2);
+        if (o.ojos<2)
+            System.out.println("Mas de un ojo");
+        if (o.gafas==false)
+            System.out.println("Sin gafas");
+        return o;
+    }
+
 
     //Crear una función que obtenga todos los minions con más de una habilidad
 
