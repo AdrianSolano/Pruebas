@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ecafa8ec-ba53-42ce-a779-1760cddeb4d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/adaits/Jefe.java" afterPath="$PROJECT_DIR$/src/com/adaits/Jefe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/adaits/Minion.java" afterPath="$PROJECT_DIR$/src/com/adaits/Minion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/adaits/MinionTest3.java" afterPath="$PROJECT_DIR$/src/com/adaits/MinionTest3.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,8 +40,8 @@
       <file leaf-file-name="Minion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adaits/Minion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+            <state relative-caret-position="289">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="e#1134#1135#0" expanded="true" />
                 <element signature="e#1170#1171#0" expanded="true" />
@@ -55,8 +53,8 @@
       <file leaf-file-name="Jefe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/adaits/Jefe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="51">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding>
                 <element signature="e#244#245#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
@@ -68,8 +66,8 @@
       <file leaf-file-name="MinionTest3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/adaits/MinionTest3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="448">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -432,17 +430,33 @@
       <option name="project" value="LOCAL" />
       <updated>1519413677022</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Clase Minion">
+      <created>1519416025972</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519416025972</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MinionTest - 2018.02.23 at 19h 38m 15s.xml">
-      <configuration name="MinionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MinionTest3_probarFuncion - 2018.02.23 at 20h 32m 57s.xml">
       <configuration name="MinionTest3.probarFuncion" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MinionTest3_probarFuncion - 2018.02.23 at 20h 57m 27s.xml">
+      <configuration name="MinionTest3.probarFuncion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinionTest3_probarFuncion - 2018.02.23 at 21h 01m 16s.xml">
+      <configuration name="MinionTest3.probarFuncion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinionTest3_probarFuncion - 2018.02.23 at 21h 01m 58s.xml">
+      <configuration name="MinionTest3.probarFuncion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinionTest3_probarFuncion - 2018.02.23 at 21h 05m 19s.xml">
+      <configuration name="MinionTest3.probarFuncion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinionTest3_probarFuncion - 2018.02.23 at 21h 05m 24s.xml">
       <configuration name="MinionTest3.probarFuncion" configurationId="JUnit" />
     </history-entry>
     <history-entry file="minionTest2 - 2018.02.23 at 19h 38m 26s.xml">
@@ -456,15 +470,6 @@
     </history-entry>
     <history-entry file="minionTest2_probarMinionsIguales2 - 2018.02.23 at 19h 41m 20s.xml">
       <configuration name="minionTest2.probarMinionsIguales2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="minionTest2_probarSonIguales - 2018.02.23 at 19h 34m 34s.xml">
-      <configuration name="minionTest2.probarSonIguales" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="minionTest2_probarSonIguales - 2018.02.23 at 19h 35m 06s.xml">
-      <configuration name="minionTest2.probarSonIguales" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="minionTest2_probarSonIguales - 2018.02.23 at 19h 38m 19s.xml">
-      <configuration name="minionTest2.probarSonIguales" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -491,7 +496,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -511,7 +516,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -727,17 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/adaits/Minion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
-          <folding>
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adaits/MinionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-453">
@@ -754,10 +748,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/adaits/Minion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adaits/Jefe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
             <element signature="e#244#245#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
@@ -767,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/adaits/MinionTest3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="448">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

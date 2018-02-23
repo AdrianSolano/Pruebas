@@ -3,9 +3,7 @@ import org.junit.jupiter.api.*;
 
 import java.util.ArrayList;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class MinionTest3 {
 
@@ -39,6 +37,7 @@ public class MinionTest3 {
         for (int i = 0; i<minionsPrueba.size();i++)
             minionsPrueba.indexOf(i);
         assertEquals(minion,minionsPrueba);
+        assertSame(minion,minionsPrueba);
 
     }
     @Test
