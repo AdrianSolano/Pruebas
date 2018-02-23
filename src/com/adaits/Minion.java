@@ -6,7 +6,7 @@ public class Minion {
 
     private String nombre;
     private int crimenes;
-    private String gafas;
+    private boolean gafas;
     private int ojos=2;
     private ArrayList habilidades = new ArrayList(10);
     private String jefe;
@@ -19,12 +19,14 @@ public class Minion {
     //Crear Clase com.adaits.Jefe y asociarla a un minion, tener en cuenta que un jefe puede tener varios minions
     //Pero los minions solo obedecen a un jefe
 
+    public Minion(boolean gafas, int ojos) {
+        this.gafas = gafas;
+        this.ojos= ojos;
+    }
+
     public Minion(String nombre, int crimenes) {
         this.nombre = nombre;
         this.crimenes = crimenes;
-    }
-    public Minion(){
-
     }
 
     @Override
