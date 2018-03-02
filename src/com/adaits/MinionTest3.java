@@ -51,7 +51,7 @@ public class MinionTest3 {
         }
         Iterator<Minion> it = resultadoEsperado.iterator() ;
         while (it.hasNext()){
-            boolean minion1 = it.hasNext();
+            Object minion1 = it.hasNext();
             assertTrue(resultadoEsperado.contains(minion1));
         }
     }
@@ -68,5 +68,59 @@ public class MinionTest3 {
         resultadoEsperado.add(n2);
         ArrayList <Minion> resultadoFuncion = j1.ojosGafas();
         assertNotEquals(resultadoFuncion,resultadoEsperado);
+    }
+    @Test
+    void pruebaMinionsAlgo(){
+        ArrayList<Minion> minio = new ArrayList<>();
+        Minion m1= new Minion(false,1);
+        Minion m2= new Minion(true,5);
+        Minion m3= new Minion(false,2);
+        Minion m4= new Minion(false,3);
+        Minion m5= new Minion(false,5);
+        Jefe j1 = new Jefe("Ember",m1);
+        minio.add(m1);
+        minio.add(m2);
+        minio.add(m3);
+        ArrayList <Minion> resultadoEsperado = new ArrayList<Minion>();
+        resultadoEsperado.add(m1);
+        resultadoEsperado.add(m2);
+        resultadoEsperado.add(m3);
+        ArrayList <Minion> resultadoFuncion = j1.ojosGafas();
+        Iterator<Minion> it = resultadoEsperado.iterator() ;
+        while (it.hasNext()){
+            Object minion1 = it.hasNext();
+            assertFalse(resultadoEsperado.contains(minion1));
+        }
+    }
+    @Test
+    void pruebaMinionsArrayL(){
+        ArrayList<Minion> minion = new ArrayList<>();
+        Minion m1= new Minion(true,1);
+        Minion m2= new Minion(true,5);
+        Jefe j1 = new Jefe("Ember",m1);
+        ArrayList <Minion> resultadoEsperado = new ArrayList<Minion>();
+        resultadoEsperado.add(m1);
+        resultadoEsperado.add(m2);
+        ArrayList <Minion> resultadoFuncion = j1.ojosGafas();
+        assertNotNull(resultadoFuncion);
+    }
+    @Test
+    void pruebaMinionCorecto(){
+        ArrayList<Minion> minio = new ArrayList<>();
+        Minion m1= new Minion(false,2);
+        Minion m2= new Minion(false,2);
+        Minion m3= new Minion(false,2);
+        Minion m4= new Minion(false,2);
+        Minion m5= new Minion(false,2);
+        Jefe j1 = new Jefe("Ember",m1);
+        minio.add(m1);
+        minio.add(m2);
+        minio.add(m3);
+        ArrayList <Minion> resultadoEsperado = new ArrayList<Minion>();
+        resultadoEsperado.add(m1);
+        resultadoEsperado.add(m2);
+        resultadoEsperado.add(m3);
+        ArrayList <Minion> resultadoFuncion = j1.ojosGafas();
+        //
     }
 }
