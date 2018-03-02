@@ -13,7 +13,9 @@ public class Jefe {
         return null;
     }
 
-
+    public Minion habilidades(Minion o){
+        return null;
+    }
 
 
 

@@ -8,7 +8,7 @@ public class Minion {
     private int crimenes;
     private boolean gafas;
     private int ojos=2;
-    private ArrayList habilidades = new ArrayList(10);
+    private ArrayList habilidades = new ArrayList(5);
     private String jefe;
 
 
@@ -84,7 +84,11 @@ public class Minion {
 
 
     //Crear una función que obtenga todos los minions con más de una habilidad
-
+    public Minion habilidades(Minion o){
+        o.habilidades.add("Fuerza");
+        o.habilidades.add("Resistencia");
+        return o;
+    }
 
     //Crear una función que obtenga un minion con la misma palabra favorita que tu
 
