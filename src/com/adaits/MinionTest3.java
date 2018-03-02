@@ -121,6 +121,6 @@ public class MinionTest3 {
         resultadoEsperado.add(m2);
         resultadoEsperado.add(m3);
         ArrayList <Minion> resultadoFuncion = j1.ojosGafas();
-        //
+        //ArrayVacio
     }
 }
