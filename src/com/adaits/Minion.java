@@ -2,7 +2,7 @@ package com.adaits;
 
 import java.util.ArrayList;
 
-public class Minion {
+public class Minion extends ArrayList<Minion> {
 
     private String nombre;
     private int crimenes;
@@ -24,17 +24,36 @@ public class Minion {
         this.ojos= ojos;
     }
 
-    public Minion(String nombre, int crimenes) {
-        this.nombre = nombre;
-        this.crimenes = crimenes;
-    }
-
     @Override
     public String toString() {
         return "Minion{" +
                 "nombre='" + nombre + '\'' +
                 ", crimenes=" + crimenes +
                 '}';
+    }
+
+    public ArrayList getHabilidades() {
+        return habilidades;
+    }
+
+    public void setHabilidades(ArrayList habilidades) {
+        this.habilidades = habilidades;
+    }
+
+    public boolean isGafas() {
+        return gafas;
+    }
+
+    public void setGafas(boolean gafas) {
+        this.gafas = gafas;
+    }
+
+    public int getOjos() {
+        return ojos;
+    }
+
+    public void setOjos(int ojos) {
+        this.ojos = ojos;
     }
 
     public String getNombre() {
